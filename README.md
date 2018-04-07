@@ -21,7 +21,7 @@ The versions are:
 * Apache Spark 2.2.0
 
 ## Acknowledgments
-Special thanks to @playframework, @knoldus and @anubhav100. I was able to pull this through checking their repositories and code. Also, this project was mainly based on [play-scala-rest-api-example](https://github.com/playframework/play-scala-rest-api-example/tree/2.6.x)
+Special thanks to <a href="https://github.com/playframework">@playframework</a>, <a href="https://github.com/knoldus">@knoldus</a> and <a href="https://github.com/anubhav100">@anubhav100</a>. I was able to pull this through checking their repositories and code. Also, this project was mainly based on [play-scala-rest-api-example](https://github.com/playframework/play-scala-rest-api-example/tree/2.6.x)
 
 ## References 
 https://github.com/playframework/play-scala-rest-api-example/tree/2.6.x
