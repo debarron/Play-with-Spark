@@ -1,29 +1,29 @@
 # Play with Apache Spark
-
 This is a simple example that combines Scala Play with Apache Spark.
 
-Project's main purpose is to have a basic understanding on how to call
-Spark from Play. The class controllers.HomeController has two examples
-on how to call a function from spark.SparkTest that calls Apache Spark.
+Project's main purpose is to have a basic understanding on how to call Spark from Play. The class controllers.HomeController has two examples on how to call a function from spark.SparkTest that calls Apache Spark. The example creates an sequence of numbers as a DataSet, counts them and send this result to Scala Play. The count gets displayed by the browser using Play's HTML views.
 
-The example creates an sequence of numbers as a DataSet and counts how many
-numbers are in it. This result is later send a view in Play and gets displayed
-by the browser.
+The present project is an academic effort to indicate how to connect both technologies.
 
 ## Run
-
 To run the example, execute:
 ```bash
 sbt run
 ```
 
+## Spark and SBT
+The challeging part was to combine dependencies from different projects along with Spark, Scala and SBT versions. The result is something that works, but can be improved. Nevertheless, I can lived with all the versions used here.
 
-## Based on
-https://github.com/playframework/play-scala-rest-api-example/tree/2.6.x
+The versions are:
+* Scala Play 2.6.12
+* SBT 1.1.1
+* Scala 2.11.8
+* Apache Spark 2.2.0
 
+## Acknowledgments
+Special thanks to @playframework, @knoldus and @anubhav100. I was able to pull this through checking their repositories and code. Also, this project was mainly based on [play-scala-rest-api-example](https://github.com/playframework/play-scala-rest-api-example/tree/2.6.x)
 
 ## References 
-
 https://github.com/playframework/play-scala-rest-api-example/tree/2.6.x
 https://github.com/knoldus/Play-Spark-Scala
 https://github.com/anubhav100/play-spark
